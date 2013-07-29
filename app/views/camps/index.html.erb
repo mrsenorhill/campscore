@@ -1,0 +1,18 @@
+<h1><%="Listing posts".upcase%></h1>
+ 
+<div class = "table"
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+  </tr>
+ 
+  <% @camps.each do |camp| %>
+    <tr>
+      <td><%= camp.title %></td>
+      <td><%= camp.description %></td>
+    </tr>
+  <% end %>
+</div>
+
+  <a href="http://localhost:3000">Home</a>

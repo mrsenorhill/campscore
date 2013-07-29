@@ -1,0 +1,47 @@
+@import "bootstrap";
+
+h1 { 
+color: red;
+text-align: center;
+margin-top: 80px;
+font-size: 50px;
+font-weight: bold;
+
+}
+
+.subtitle {
+ color: gray;
+ font-size: 18px;
+ text-align:center;
+ margin-top: 25px;
+ }
+
+
+.form {
+	text-align: center;
+	padding: 20px;
+}
+
+.form p {
+	text-align: center;
+	line-height:20%;
+	font-size: 18px;
+}
+
+.btn a{
+	text-decoration: none;
+	color: black
+}
+
+.btn a:hover{
+	color: red;
+}
+
+.show_camps {
+	color: red;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+

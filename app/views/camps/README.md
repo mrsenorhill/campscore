@@ -1,0 +1,1 @@
+#This is the Campscore App by Gregory Hill.
